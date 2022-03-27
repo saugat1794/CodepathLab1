@@ -7,7 +7,7 @@
 
 ### App Walk-though
 `
-<img src="https://github.com/saugat1794/CodepathLab1/blob/main/ezgif.com-gif-maker%20(2).gif" width=200><br>
+<img src="https://github.com/saugat1794/CodepathLab1/blob/main/ezgif.com-gif-maker%20(3).gif" width=400><br>
 
 
 ## Required
