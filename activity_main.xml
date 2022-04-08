@@ -13,6 +13,9 @@
         android:gravity="center"
         android:text="Who is the 44th President of the United States?"
         android:visibility="visible"
+        android:textColor="#FFFFFF"
+        android:layout_margin="@dimen/cardview_compat_inset_shadow"
+        android:background="#741b47"
         android:textSize="40sp" />
 
     <TextView
@@ -21,18 +24,30 @@
         android:layout_height="200dp"
         android:gravity="center"
         android:text="Barack Obama"
+        android:background="#d9d2e9"
+        android:textColor="#000000"
         android:textSize="40sp"
         android:visibility="invisible" />
 
     <ImageView
         android:id="@+id/flashcard_add_button"
-        android:layout_width="69dp"
-        android:layout_height="65dp"
+        android:layout_width="82dp"
+        android:layout_height="85dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="14dp"
         android:src="@drawable/icon_add" />
+
+    <ImageView
+        android:id="@+id/flashcard_arrow_button"
+        android:layout_width="81dp"
+        android:layout_height="84dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="307dp"
+        android:src="@drawable/ic_arrow" />
 
 
 </RelativeLayout>
